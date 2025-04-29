@@ -103,7 +103,7 @@ agent = None
 
 # Gradio UI
 with gr.Blocks(theme=gr.themes.Default()) as app:
-    gr.Markdown("# 🤖 OpenManus AI Chatbot", elem_id="title")
+    gr.Markdown("# OpenManus AI Chatbot", elem_id="title")
 
     chatbot = gr.Chatbot(label="Chat with OpenManus", height=600, type="messages")
 
@@ -113,11 +113,11 @@ with gr.Blocks(theme=gr.themes.Default()) as app:
             lines=2,
             label="Your Prompt"
         )
-        submit_btn = gr.Button("🚀 Submit")
+        submit_btn = gr.Button("Submit")
 
     with gr.Row():
-        clear_btn = gr.Button("🧹 Clear Chat")
-        download_workspace = gr.Button("📥 Download Workspace")
+        clear_btn = gr.Button("Clear Chat")
+        download_workspace = gr.Button("Download Workspace")
 
     state = gr.State([])
 
