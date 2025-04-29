@@ -38,7 +38,7 @@ This fork includes a `gradio_app.py` file that adds a web-based interface for us
 - Clear chat and downloadable workspace support.
 
 ## 📝 Original Project Credits
-- Project: [OpenManus](https://github.com/open-manus/OpenManus)
+- Project: [OpenManus](https://github.com/mannaandpoem/OpenManus.git)
 - License: Apache License 2.0
 
 See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE) for more details.
