@@ -2,6 +2,47 @@
   <img src="assets/logo.jpg" width="200"/>
 </p>
 
+# OpenManus Gradio Interface (Unofficial)
+
+This repository is an unofficial extension of the [OpenManus project](https://github.com/mannaandpoem/OpenManus.git) that adds a user-friendly [Gradio](https://www.gradio.app/) web interface. It enables real-time chat, log streaming, workspace file viewing, and interaction with LLM tools in a browser-based UI.
+
+⚠️ This project is not affiliated with or endorsed by the original authors of OpenManus.
+
+---
+
+## NEW: Gradio Interface Support
+
+This fork includes a `gradio_app.py` file that adds a web-based interface for using OpenManus with Gradio.
+
+### How to Run the Gradio Interface
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/Rakesh-v27/OpenManus.git
+   cd openmanus
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Launch the Gradio app:
+   ```bash
+   python gradio_app.py
+   ```
+
+4. Open the local URL shown in the terminal (default: http://0.0.0.0:7860) to interact with Manus via browser.
+
+### Features
+- Live streaming of Manus thoughts and steps.
+- Automatic display of generated `.txt` or `.md` files from `workspace/`.
+- Clear chat and downloadable workspace support.
+
+## 📝 Original Project Credits
+- Project: [OpenManus](https://github.com/open-manus/OpenManus)
+- License: Apache License 2.0
+
+See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE) for more details.
+
 English | [中文](README_zh.md) | [한국어](README_ko.md) | [日本語](README_ja.md)
 
 [![GitHub stars](https://img.shields.io/github/stars/mannaandpoem/OpenManus?style=social)](https://github.com/mannaandpoem/OpenManus/stargazers)
@@ -182,4 +223,12 @@ OpenManus is built by contributors from MetaGPT. Huge thanks to this agent commu
   doi = {10.5281/zenodo.15186407},
   url = {https://doi.org/10.5281/zenodo.15186407},
 }
+```
+
+## 📄 LICENSE
+This project is licensed under the Apache License 2.0, in line with the original OpenManus repository.
+
+```
+NOTICE
+This software includes code from the OpenManus project (https://github.com/open-manus/OpenManus), licensed under the Apache License 2.0.
 ```
