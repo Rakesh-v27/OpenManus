@@ -230,5 +230,5 @@ This project is licensed under the Apache License 2.0, in line with the original
 
 ```
 NOTICE
-This software includes code from the OpenManus project (https://github.com/open-manus/OpenManus), licensed under the Apache License 2.0.
+This software includes code from the OpenManus project (https://github.com/mannaandpoem/OpenManus.git), licensed under the Apache License 2.0.
 ```
