@@ -59,7 +59,7 @@ async def run_and_stream(prompt_text, chat_history):
                 chat_history.append({"role": "assistant", "content": log})
                 yield chat_history, ""
 
-        # After Manus finishes the task this it to detect new files in the workspace directory and render it in the gradio app
+        # After Manus finishes the task, this function detects new files in the workspace directory and render it in gradio
         if os.path.exists(WORKSPACE_DIR):
             new_files = set(os.listdir(WORKSPACE_DIR)) - existing_files
             for file_name in new_files:
